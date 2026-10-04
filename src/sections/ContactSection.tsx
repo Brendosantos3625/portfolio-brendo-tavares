@@ -1,4 +1,4 @@
-import { ArrowUpRight, GitBranch } from 'lucide-react'
+import { ArrowUpRight, GitBranch, Mail, MessageCircle } from 'lucide-react'
 
 export default function ContactSection() {
   return (
@@ -17,6 +17,12 @@ export default function ContactSection() {
         </div>
 
         <div className="contact-actions">
+          <a className="button button-primary" href="https://wa.me/5561982112344" target="_blank" rel="noreferrer">
+            <MessageCircle size={15} aria-hidden="true" /> WhatsApp: +55 61 98211-2344 <ArrowUpRight size={15} aria-hidden="true" />
+          </a>
+          <a className="button button-secondary" href="mailto:tavaresbrendo530@gmail.com">
+            <Mail size={15} aria-hidden="true" /> tavaresbrendo530@gmail.com
+          </a>
           <a className="button button-primary" href="https://linkedin.com/in/brendo-tavares-5678b0393" target="_blank" rel="noreferrer">
             <ArrowUpRight size={15} aria-hidden="true" /> Conectar no LinkedIn <ArrowUpRight size={15} aria-hidden="true" />
           </a>
